@@ -11,9 +11,4 @@
     <extension-description>
         <src xlink:href="description/description_en.txt"/>
     </extension-description>
-    <registration>
-        <simple-license accept-by="admin" >
-            <license-text xlink:href="description/license.txt" />
-        </simple-license>
-    </registration>
 </description>
