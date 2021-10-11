@@ -10,7 +10,7 @@
 				</prop>
 				<node oor:name="t01" oor:op="replace">
 					<prop oor:name="URL" oor:type="xs:string">
-						<value>service:org.libreoffice.StarterProject?actionOne</value>
+						<value>service:org.libreoffice.PyStarterProject?actionOne</value>
 					</prop>
 					<prop oor:name="Target" oor:type="xs:string">
 						<value>_self</value>
@@ -39,7 +39,7 @@
 							<value xml:lang="en-US">Action One</value>
 						</prop>
 						<prop oor:name="URL">
-							<value>service:org.libreoffice.StarterProject?actionOne</value>
+							<value>service:org.libreoffice.PyStarterProject?actionOne</value>
 						</prop>
 						<prop oor:name="Target" oor:type="xs:string">
 							<value>_self</value>

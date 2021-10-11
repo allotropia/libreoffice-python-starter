@@ -16,7 +16,7 @@ import uno, unohelper
 from com.sun.star.task import XJobExecutor
 from com.sun.star.document import XEventListener
 
-class StarterProject(unohelper.Base, XJobExecutor, XEventListener):
+class PyStarterProject(unohelper.Base, XJobExecutor, XEventListener):
     def trigger(self, args):
         if args == "actionOne":
             frame = self.desktop.ActiveFrame
@@ -44,6 +44,6 @@ class StarterProject(unohelper.Base, XJobExecutor, XEventListener):
 
 g_ImplementationHelper = unohelper.ImplementationHelper()
 g_ImplementationHelper.addImplementation(
-    StarterProject,
-    "org.libreoffice.StarterProject",
+    PyStarterProject,
+    "org.libreoffice.PyStarterProject",
     ("com.sun.star.task.JobExecutor",))
