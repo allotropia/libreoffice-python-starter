@@ -1,0 +1,10 @@
+#UNO project configuration file
+#Mon Oct 04 10:56:04 CEST 2021
+project.prefix=org.libreoffice.example
+project.language=Python
+project.ooo=LibreOffice 7.1
+project.idl=/idl
+project.implementation=comp
+project.build=build
+project.sdk=LibreOffice SDK 7.1.5.2
+project.srcdir=/source
